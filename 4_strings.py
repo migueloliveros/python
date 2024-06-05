@@ -1,5 +1,5 @@
 #cadenas de texto o cadenas de caracteres
-PONER PRINT
+#PONER PRINT
 
 msg = ("el veloz murciélago hindu comí feliz cardillo y kiwi")
 print = msg
