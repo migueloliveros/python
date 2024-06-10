@@ -70,7 +70,16 @@ a = 0
 b = 1
 while a < 1000:
     c = a + b
-    print(a, end=" ") #print(a, b, c)
+    print(a, end=" ")
+    #print(a, b, c)
+    #yield
+    #yield si se realiza función
     a, b = b, c
+
+#funcion Fibonacci
+for n in fibonacci(100):
+    print(n)
+    
+#f = fibonacci(20)
 
 
