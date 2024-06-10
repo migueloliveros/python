@@ -30,5 +30,25 @@ def calcular_nota_final(**notas):
         nota = notas['recuperacion']
     return nota
 
+#Funciones que no devuelven valor (procedimientos)
+
+def do_nothing():
+    pass
+
+def mostrar_aviso(usuario):
+    print(f"Estimado {usuario}: preste atención a estos ejemplos.")
+
+type(y)
+
+#Funciones generadoras e iterables
+def impares(n):
+    '''
+    Genera secuencia de números impares hasta n.
+    '''
+    i = 1
+    while i < n:
+        return i
+        i + 2
+        
 
     
